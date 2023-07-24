@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #a6d5ef;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+nav > h1 {
+  font-size: 40px;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+}
+ul > a {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}

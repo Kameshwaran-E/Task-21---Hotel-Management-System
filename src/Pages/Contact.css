@@ -1,0 +1,29 @@
+.Cont_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-image: url('https://images.moneycontrol.com/static-mcnews/2021/04/Roof-top-pool-2-taj-goa-770x433.jpg?impolicy=website&width=770&height=431');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px 10px;
+}
+
+article > h1 {
+  font-size: 40px;
+}
+
+article {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-left: 50px;
+  text-align: justify;
+  padding: 30px;
+  background-color: #bfe4fe;
+  border-radius: 20px;
+  width: 700px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  position: absolute;
+  top: 80px;
+}

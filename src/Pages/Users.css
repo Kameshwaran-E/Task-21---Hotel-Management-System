@@ -1,0 +1,32 @@
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 93vh;
+  background-image: url('../assets/banner3.jpg');
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.user_container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #ededf2;
+  border-radius: 20px;
+  width: 300px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.user_container > button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 5px 5px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
